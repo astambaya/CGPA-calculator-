@@ -1,0 +1,184 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Main Menu" Height="508.288" Width="700.558" WindowStartupLocation="CenterScreen">
+    <Grid RenderTransformOrigin="0.068,0.196">
+        <Label Content="Grade Point and Cumulative Grade Point Calculator" HorizontalAlignment="Left" Margin="82,12,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15"/>
+        <Image HorizontalAlignment="Left" Height="65" Margin="21,10,0,0" VerticalAlignment="Top" Width="65" Source="bauchi png.png"/>
+        <Label Content="A CGPA CALCULATOR DESIGNED BY ABUBAKAR SANI, MATRIC NO: BASUC/UG/BHS/ANA/19/0141" HorizontalAlignment="Left" Margin="82,30,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21"/>
+        <Label Content="NAME:" HorizontalAlignment="Left" Margin="82,50,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21" RenderTransformOrigin="6.554,14.958"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="126,51,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <Label Content="MATRIC NO:" HorizontalAlignment="Left" Margin="241,49,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="304,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <Label Content="First Semester Courses" HorizontalAlignment="Left" Margin="29,80,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="99"/>
+        <Label Content="1." HorizontalAlignment="Left" Margin="33,112,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="2." HorizontalAlignment="Left" Margin="33,133,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="3." HorizontalAlignment="Left" Margin="33,154,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="4." HorizontalAlignment="Left" Margin="33,175,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="5." HorizontalAlignment="Left" Margin="33,196,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="6." HorizontalAlignment="Left" Margin="33,218,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="7." HorizontalAlignment="Left" Margin="33,239,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="8." HorizontalAlignment="Left" Margin="33,260,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="9." HorizontalAlignment="Left" Margin="33,281,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="10." HorizontalAlignment="Left" Margin="33,302,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="11." HorizontalAlignment="Left" Margin="33,324,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="12." HorizontalAlignment="Left" Margin="33,346,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="13." HorizontalAlignment="Left" Margin="33,367,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="14." HorizontalAlignment="Left" Margin="33,388,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="15." HorizontalAlignment="Left" Margin="33,409,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="Course Code" HorizontalAlignment="Left" Margin="63,96,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="58"/>
+        <Label Content="Course Unit" HorizontalAlignment="Left" Margin="121,96,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="53"/>
+        <Label Content="Score" HorizontalAlignment="Left" Margin="180,96,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="35"/>
+        <Label Content="Grade Obtained" HorizontalAlignment="Left" Margin="231,96,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="71"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,285,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,330,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,351,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,371,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="69,413,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu1" HorizontalAlignment="Left" Height="13" Margin="127,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu2" HorizontalAlignment="Left" Height="13" Margin="127,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu3" HorizontalAlignment="Left" Height="13" Margin="127,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu5" HorizontalAlignment="Left" Height="13" Margin="127,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu4" HorizontalAlignment="Left" Height="13" Margin="127,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu6" HorizontalAlignment="Left" Height="13" Margin="127,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu7" HorizontalAlignment="Left" Height="13" Margin="127,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu8" HorizontalAlignment="Left" Height="13" Margin="127,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu9" HorizontalAlignment="Left" Height="13" Margin="127,285,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu10" HorizontalAlignment="Left" Height="13" Margin="127,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu11" HorizontalAlignment="Left" Height="13" Margin="127,330,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu12" HorizontalAlignment="Left" Height="13" Margin="127,351,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu13" HorizontalAlignment="Left" Height="13" Margin="127,371,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu14" HorizontalAlignment="Left" Height="13" Margin="127,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox Name="txtcu15" HorizontalAlignment="Left" Height="13" Margin="127,413,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Name="txtscore1" Height="13" Margin="184,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="TextBox_KeyUp"/>
+        <TextBox Name="txtScore2" HorizontalAlignment="Left" Height="13" Margin="184,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtScore2_KeyUp"/>
+        <TextBox Name="txtscore3" HorizontalAlignment="Left" Height="13" Margin="184,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore3_KeyUp"/>
+        <TextBox Name="txtscore5" HorizontalAlignment="Left" Height="13" Margin="184,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore5_KeyUp"/>
+        <TextBox Name="txtscore4" HorizontalAlignment="Left" Height="13" Margin="184,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore4_KeyUp"/>
+        <TextBox Name="txtscore6" HorizontalAlignment="Left" Height="13" Margin="184,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore6_KeyUp"/>
+        <TextBox Name="txtscore7" HorizontalAlignment="Left" Height="13" Margin="184,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore7_KeyUp"/>
+        <TextBox Name="txtscore8" HorizontalAlignment="Left" Height="13" Margin="184,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore8_KeyUp"/>
+        <TextBox Name="txtscore9" HorizontalAlignment="Left" Height="13" Margin="184,285,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore9_KeyUp"/>
+        <TextBox Name="txtscore10" HorizontalAlignment="Left" Height="13" Margin="184,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore10_KeyUp"/>
+        <TextBox Name="txtscore11" HorizontalAlignment="Left" Height="13" Margin="184,330,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore11_KeyUp"/>
+        <TextBox Name="txtscore12" HorizontalAlignment="Left" Height="13" Margin="184,351,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore12_KeyUp"/>
+        <TextBox Name="txtscore13" HorizontalAlignment="Left" Height="13" Margin="184,371,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore13_KeyUp"/>
+        <TextBox Name="txtscore14" HorizontalAlignment="Left" Height="13" Margin="184,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore14_KeyUp"/>
+        <TextBox Name="txtscore15" HorizontalAlignment="Left" Height="13" Margin="184,413,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore15_KeyUp"/>
+        <TextBox Name="TXTGRADE1" HorizontalAlignment="Left" Height="13" Margin="241,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="TXTGRADE2" HorizontalAlignment="Left" Height="13" Margin="241,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE3" HorizontalAlignment="Left" Height="13" Margin="241,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE5" HorizontalAlignment="Left" Height="13" Margin="241,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE4" HorizontalAlignment="Left" Height="13" Margin="241,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE6" HorizontalAlignment="Left" Height="13" Margin="241,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE7" HorizontalAlignment="Left" Height="13" Margin="241,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE8" HorizontalAlignment="Left" Height="13" Margin="241,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE9" HorizontalAlignment="Left" Height="13" Margin="241,285,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE10" HorizontalAlignment="Left" Height="13" Margin="241,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE11" HorizontalAlignment="Left" Height="13" Margin="241,330,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE12" HorizontalAlignment="Left" Height="13" Margin="241,351,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE13" HorizontalAlignment="Left" Height="13" Margin="241,371,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE14" HorizontalAlignment="Left" Height="13" Margin="241,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox Name="txtGRADE15" HorizontalAlignment="Left" Height="13" Margin="241,413,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="69,439,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Name="lbldisplayfirst" Content="0.00" HorizontalAlignment="Left" Margin="149,438,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21" RenderTransformOrigin="6.554,14.958" Width="134"/>
+        <Label Content="Course Code" HorizontalAlignment="Left" Margin="326,96,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="58"/>
+        <Label Content="Course Unit" HorizontalAlignment="Left" Margin="384,96,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="53"/>
+        <Label Content="Score" HorizontalAlignment="Left" Margin="443,96,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="35"/>
+        <Label Content="Grade Obtained" HorizontalAlignment="Left" Margin="494,96,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="71"/>
+        <Label Content="Second Semester Courses" HorizontalAlignment="Left" Margin="303,80,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FFA80606" Height="21" Width="112"/>
+        <Label Content="1." HorizontalAlignment="Left" Margin="304,112,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="2." HorizontalAlignment="Left" Margin="304,133,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="3." HorizontalAlignment="Left" Margin="304,154,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="4." HorizontalAlignment="Left" Margin="304,175,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="5." HorizontalAlignment="Left" Margin="304,196,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="6." HorizontalAlignment="Left" Margin="304,218,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="7." HorizontalAlignment="Left" Margin="304,239,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="8." HorizontalAlignment="Left" Margin="304,260,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="9." HorizontalAlignment="Left" Margin="304,281,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="10." HorizontalAlignment="Left" Margin="304,302,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="11." HorizontalAlignment="Left" Margin="304,324,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="12." HorizontalAlignment="Left" Margin="304,346,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="13." HorizontalAlignment="Left" Margin="304,367,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="14." HorizontalAlignment="Left" Margin="304,388,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <Label Content="15." HorizontalAlignment="Left" Margin="304,409,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="8" Foreground="#FF6C3838" Height="21" Width="25"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,285,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,330,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,351,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,371,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="13" Margin="334,413,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu1_Copy" HorizontalAlignment="Left" Height="13" Margin="390,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu2_Copy" HorizontalAlignment="Left" Height="13" Margin="390,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu3_Copy" HorizontalAlignment="Left" Height="13" Margin="390,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu5_Copy" HorizontalAlignment="Left" Height="13" Margin="390,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu4_Copy" HorizontalAlignment="Left" Height="13" Margin="390,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu6_Copy" HorizontalAlignment="Left" Height="13" Margin="390,222,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu7_Copy" HorizontalAlignment="Left" Height="13" Margin="390,244,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu8_Copy" HorizontalAlignment="Left" Height="13" Margin="390,264,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu9_Copy" HorizontalAlignment="Left" Height="13" Margin="390,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu10_Copy" HorizontalAlignment="Left" Height="13" Margin="390,307,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu11_Copy" HorizontalAlignment="Left" Height="13" Margin="390,331,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu12_Copy" HorizontalAlignment="Left" Height="13" Margin="390,352,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu13_Copy" HorizontalAlignment="Left" Height="13" Margin="390,372,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu14_Copy" HorizontalAlignment="Left" Height="13" Margin="390,391,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox x:Name="txtcu15_Copy" HorizontalAlignment="Left" Height="13" Margin="390,414,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" x:Name="txtscore1_Copy" Height="13" Margin="443,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore1_Copy_KeyUp"/>
+        <TextBox x:Name="txtScore2_Copy" HorizontalAlignment="Left" Height="13" Margin="443,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtScore2_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore3_Copy" HorizontalAlignment="Left" Height="13" Margin="443,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore3_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore5_Copy" HorizontalAlignment="Left" Height="13" Margin="443,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore5_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore4_Copy" HorizontalAlignment="Left" Height="13" Margin="443,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore4_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore6_Copy" HorizontalAlignment="Left" Height="13" Margin="443,222,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore6_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore7_Copy" HorizontalAlignment="Left" Height="13" Margin="443,244,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore7_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore8_Copy" HorizontalAlignment="Left" Height="13" Margin="443,264,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore8_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore9_Copy" HorizontalAlignment="Left" Height="13" Margin="443,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore9_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore10_Copy" HorizontalAlignment="Left" Height="13" Margin="443,307,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore10_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore11_Copy" HorizontalAlignment="Left" Height="13" Margin="443,331,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore11_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore12_Copy" HorizontalAlignment="Left" Height="13" Margin="443,352,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore12_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore13_Copy" HorizontalAlignment="Left" Height="13" Margin="443,372,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore13_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore14_Copy" HorizontalAlignment="Left" Height="13" Margin="443,391,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore14_Copy_KeyUp"/>
+        <TextBox x:Name="txtscore15_Copy" HorizontalAlignment="Left" Height="13" Margin="443,414,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" KeyUp="txtscore15_Copy_KeyUp"/>
+        <TextBox x:Name="TXTGRADE1_Copy" HorizontalAlignment="Left" Height="13" Margin="503,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="TXTGRADE2_Copy" HorizontalAlignment="Left" Height="13" Margin="503,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE3_Copy" HorizontalAlignment="Left" Height="13" Margin="503,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE5_Copy" HorizontalAlignment="Left" Height="13" Margin="503,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE4_Copy" HorizontalAlignment="Left" Height="13" Margin="503,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE6_Copy" HorizontalAlignment="Left" Height="13" Margin="503,222,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE7_Copy" HorizontalAlignment="Left" Height="13" Margin="503,244,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE8_Copy" HorizontalAlignment="Left" Height="13" Margin="503,264,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE9_Copy" HorizontalAlignment="Left" Height="13" Margin="503,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE10_Copy" HorizontalAlignment="Left" Height="13" Margin="503,307,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE11_Copy" HorizontalAlignment="Left" Height="13" Margin="503,331,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE12_Copy" HorizontalAlignment="Left" Height="13" Margin="503,352,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE13_Copy" HorizontalAlignment="Left" Height="13" Margin="503,372,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE14_Copy" HorizontalAlignment="Left" Height="13" Margin="503,391,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <TextBox x:Name="txtGRADE15_Copy" HorizontalAlignment="Left" Height="13" Margin="503,414,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="42" FontSize="8" IsReadOnly="True" IsEnabled="False"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="335,440,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click1"/>
+        <Label x:Name="lbldisplayfirst_Copy" Content="0.00" HorizontalAlignment="Left" Margin="415,439,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21" RenderTransformOrigin="6.554,14.958" Width="134"/>
+        <Button Content="Calculate CGPA" HorizontalAlignment="Left" Margin="583,113,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click2"/>
+        <Label x:Name="lbldisplayfirst_Copy1" Content="0.00" HorizontalAlignment="Left" Margin="583,139,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21" RenderTransformOrigin="6.554,14.958" Width="92"/>
+        <Label x:Name="lblgtpoints1" Content="0.00" HorizontalAlignment="Left" Margin="583,336,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21" RenderTransformOrigin="6.554,14.958" Width="92" Visibility="Hidden"/>
+        <Label x:Name="lbgcupoints1" Content="0.00" HorizontalAlignment="Left" Margin="583,359,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21" RenderTransformOrigin="6.554,14.958" Width="92" Visibility="Hidden"/>
+        <Label x:Name="lblgtpoints2" Content="0.00" HorizontalAlignment="Left" Margin="583,388,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21" RenderTransformOrigin="6.554,14.958" Width="92" Visibility="Hidden"/>
+        <Label x:Name="lbgcupoints2" Content="0.00" HorizontalAlignment="Left" Margin="583,408,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="9" Foreground="#FFDA3C3C" Height="21" RenderTransformOrigin="6.554,14.958" Width="92" Visibility="Hidden" />
+
+    </Grid>
+</Window>
